@@ -1,0 +1,20 @@
+[
+  {
+    "matricula": "2022030107",
+    "nombre": "Jesus Rolando Cruz Perez",
+    "sexo": "M",
+    "materias": ["web", "baseDeDatos", "Ingles"]
+  },
+  {
+    "matricula": "2022030088",
+    "nombre": "Jose Miguel Figueroa Tirado",
+    "sexo": "M",
+    "materias": ["web", "baseDeDatos", "Ingles"]
+  },
+  {
+    "matricula": "2022030111",
+    "nombre": "Kevin Osvaldo Osuna Rendon",
+    "sexo": "M",
+    "materias": ["web", "baseDeDatos", "Ingles"]
+  }
+]

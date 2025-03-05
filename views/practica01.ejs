@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body class="container">
+    <center>
+        <%- include('partials/header.ejs') %>
+            <%- include('partials/navegacion.ejs') %>
+                <div class="container mt-4">
+                    <h3 class="text-center">Tabla de multiplicar del <%=numero%>
+                    </h3>
+                </div>
+
+                <!-- Formulario -->
+                <div class="container-mt-5 mt-5 mb-5">
+                    <form action="p01" method="post">
+                        <div class="mb-3 form-group">
+                            <label for="numero" class="form-label form-control">Numero: </label>
+                            <input type="number" name="numero" class="form-control" id="numero"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                        <a href="/practica1" class="btn btn-secondary">Limpiar</a>
+                    </form>
+
+                    <div class="mt-4">
+                        <% if (numero) { %>
+                            <% for (let i=1; i <=10; i++) { %>
+                                <p>
+                                    <%= numero %> X <%= i %> = <%= numero * i %>
+                                </p>
+                                <% } %>
+                                    <% } %>
+                    </div>
+
+                </div>
+
+    </center>
+    <%- include('partials/footer.ejs') %>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Node</title>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body class="container">
+  <center>
+    <%- include('partials/header.ejs') %>
+      <%- include('partials/navegacion.ejs') %>
+        <h1>
+          <%=titulo%>
+        </h1>
+  </center>
+  <section>
+    <div class="container">
+      <img src="/img/logoupsin.png" alt="Logo de upsin">
+    </div>
+    <hr />
+    <table class="table table-info table-striped">
+      <tr class="text-center">
+        <th>Matricula</th>
+        <th>Nombre</th>
+        <th>Sexo</th>
+        <th>Materias</th>
+      </tr>
+      <% for(i=0; i<listado.length; i++){%>
+        <tr class="text-center">
+          <td>
+            <%=listado[i].matricula%>
+          </td>
+          <td>
+            <%=listado[i].nombre%>
+          </td>
+          <td>
+            <%=listado[i].sexo%>
+          </td>
+          <td>
+            <%=listado[i].materias%>
+          </td>
+        </tr>
+        <% } %>
+    </table>
+  </section>
+  <%- include('partials/footer.ejs') %>
+</body>
+
+</html>
