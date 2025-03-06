@@ -13,10 +13,73 @@
         <%- include('partials/header.ejs') %>
             <%- include('partials/navegacion.ejs') %>
                 <div class="container">
-                    <h3 class="text-center">Practica 02</h3>
+                    <h3 class="text-center">Practica 02 - Cotizacion</h3>
                 </div>
     </center>
-    <%- include('partials/footer.ejs') %>
+
+    <section class="formulario-container" style="padding: 20px;">
+        <div id="formulario" class="container">
+            <!-- FORMULARIO -->
+            <form action="/cotizacion" method="post" onsubmit="return validar()">
+                <div class="form-group">
+                    <label for="valorAuto">Valor del Automovil:</label>
+                    <input type="number" name="valorAuto" id="valorAuto" value="<%=valorAuto%>" class="form-control"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="pinicial">Porcentaje Pago Inicial:</label>
+                    <input type="number" name="pinicial" id="pinicial" value="<%=pinicial%>" class="form-control"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="plazos">Plazos:</label>
+                    <select name="plazos" id="plazos" class="form-control">
+                        <option value="12" <%=plazos===12 ? 'selected' : '' %>>12</option>
+                        <option value="24" <%=plazos===24 ? 'selected' : '' %>>24</option>
+                        <option value="36" <%=plazos===36 ? 'selected' : '' %>>36</option>
+                        <option value="48" <%=plazos===48 ? 'selected' : '' %>>48</option>
+                        <option value="60" <%=plazos===60 ? 'selected' : '' %>>60</option>
+                    </select>
+                </div>
+                <div class="butttons" style="margin: 20px 0px;">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <a href="/cotizacion" class="btn btn-secondary">Limpiar</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <% if (valorAuto && pinicial && plazos) { const pagoInicial=(valorAuto * pinicial) / 100; const
+        montoFinanciado=valorAuto - pagoInicial; const pagoMensual=montoFinanciado / plazos; %>
+        <section class="resultado-container" style="padding: 20px;">
+            <div class="container">
+                <h3 class="text-center">Resultado</h3>
+                <p><strong>Valor del Auto:</strong> $<%= valorAuto %>
+                </p>
+                <p><strong>Pago Inicial:</strong> $<%= (valorAuto * pinicial) / 100 %>
+                </p>
+                <p><strong>Plazo:</strong>
+                    <%= plazos %> meses
+                </p>
+                <p><strong>Pago Mensual:</strong> $<%= pagoMensual.toFixed(2) %>
+                </p>
+            </div>
+        </section>
+        <% } %>
+
+            <%- include('partials/footer.ejs') %>
+                <script>
+                    function validar() {
+                        const pagoInicial = document.querySelector('#pinicial').value;
+                        if (pagoInicial < 0) {
+                            alert('El porcentaje debe de ser mayor a 0'); return false;
+                        }
+                        if (pagoInicial > 100) {
+                            alert('El porcentaje debe de ser menor o igual a 100'); return false;
+                        }
+                        return true;
+                    }
+                </script>
 </body>
 
 </html>

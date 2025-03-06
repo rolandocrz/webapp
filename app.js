@@ -27,6 +27,38 @@ app.get('/', (req, res) => {
 });
 
 
+// Peticiones de las paginas
+app.get('/practica1', (req, res) => {
+    res.render('practica01', { numero: "" });
+})
+app.get('/practica2', (req, res) => {
+    res.render('practica02');
+})
+app.get('/practica3', (req, res) => {
+    res.render('practica03');
+})
+
+app.get('/cotizacion', (req, res) => {
+    const params = {
+        valorAuto: req.query.valorAuto,
+        pinicial: req.query.pinicial,
+        plazos: req.query.plazos
+    }
+    res.render('practica02', params);
+})
+
+app.post('/cotizacion', (req, res) => {
+    const params = {
+        valorAuto: req.body.valorAuto,
+        pinicial: req.body.pinicial,
+        plazos: req.body.plazos
+    }
+    res.render('practica02', params);
+})
+
+
+
+
 // Metodo Post (p01)
 app.post('/p01', (req, res) => {
     // Parametros para recibir datos del form
@@ -39,18 +71,6 @@ app.post('/p01', (req, res) => {
 
     res.render('practica01', params)
 });
-
-// Peticiones de las paginas
-app.get('/practica1', (req, res) => {
-    res.render('practica01', { numero: "" });
-})
-app.get('/practica2', (req, res) => {
-    res.render('practica02');
-})
-app.get('/practica3', (req, res) => {
-    res.render('practica03');
-})
-
 
 const puerto = 3000;
 app.listen(puerto, () => {
