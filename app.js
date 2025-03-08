@@ -56,6 +56,48 @@ app.post('/cotizacion', (req, res) => {
     res.render('practica02', params);
 })
 
+// Metodos practica 3 - pre examen
+app.get('/nomina', (req, res) => {
+    res.render('practica03', {
+        numRecibo: '',
+        nombre: '',
+        puesto: '',
+        nivel: '',
+        diasTrabajados: '',
+        calculoPago: '',
+        calculoImpuesto: '',
+        calculoTotal: ''
+    });
+});
+
+app.post('/nomina', (req, res) => {
+    const { numRecibo, nombre, puesto, nivel, diasTrabajados } = req.body;
+    let sueldoBase;
+    if (puesto === '1') sueldoBase = 100;
+    else if (puesto === '2') sueldoBase = 200;
+    else sueldoBase = 300;
+
+    const pago = sueldoBase * diasTrabajados;
+    let impuestoRate = nivel === '2' ? 0.03 : 0.05;
+    const impuesto = pago * impuestoRate;
+    const total = pago - impuesto;
+
+    const params = {
+        numRecibo,
+        nombre,
+        puesto,
+        nivel,
+        diasTrabajados,
+        calculoPago: pago,
+        calculoImpuesto: impuesto,
+        calculoTotal: total
+    };
+
+    res.render('practica03', params);
+});
+
+
+
 
 
 

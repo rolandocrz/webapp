@@ -13,7 +13,78 @@
         <%- include('partials/header.ejs') %>
             <%- include('partials/navegacion.ejs') %>
                 <div class="container">
-                    <h3 class="text-center">Practica 03</h3>
+                    <h3 class="text-center mt-4 ">Practica 03 - Pre Examen</h3>
+                </div>
+
+                <div class="container mt-4">
+                    <form action="/nomina" method="post">
+                        <div class="form-group row mb-4">
+                            <label for="numRecibo" class="col-sm-2 col-form-label">Num. Recibo</label>
+                            <div class="col-sm-10">
+                                <input name="numRecibo" type="text" class="form-control" id="numRecibo"
+                                    placeholder="Num. Recibo" value="<%= numRecibo %>">
+                            </div>
+                        </div>
+                        <div class="form-group row mb-4">
+                            <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
+                            <div class="col-sm-10">
+                                <input name="nombre" type="text" class="form-control" id="nombre" placeholder="Nombre"
+                                    value="<%= nombre %>">
+                            </div>
+                        </div>
+                        <div class="form-group row mb-4">
+                            <label for="puesto" class="col-sm-2 col-form-label">Puesto</label>
+                            <div class="col-sm-10">
+                                <select name="puesto" class="form-control" id="puesto">
+                                    <option value="1" <%=puesto==1 ? 'selected' : '' %>>Auxiliar</option>
+                                    <option value="2" <%=puesto==2 ? 'selected' : '' %>>Albañil</option>
+                                    <option value="3" <%=puesto==3 ? 'selected' : '' %>>Ing. de Obra</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row mb-4">
+                            <label for="nivel" class="col-sm-2 col-form-label">Nivel</label>
+                            <div class="col-sm-10">
+                                <select name="nivel" class="form-control" id="nivel">
+                                    <option value="1" <%=nivel==1 ? 'selected' : '' %>>Base</option>
+                                    <option value="2" <%=nivel==2 ? 'selected' : '' %>>Nivel 2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row mb-4">
+                            <label for="diasTrabajados" class="col-sm-2 col-form-label">Dias Trabajados</label>
+                            <div class="col-sm-10">
+                                <input name="diasTrabajados" type="number" class="form-control" id="diasTrabajados"
+                                    placeholder="Días Trabajados" value="<%= diasTrabajados %>">
+                            </div>
+                        </div>
+                        <div class="form-group row mb-4">
+                            <label class="col-sm-2 col-form-label">Pagos</label>
+                            <div class="col-sm-10">
+                                <div class="form-group">
+                                    <label for="calculoPago">Calculo Pago</label>
+                                    <input name="calculoPago" type="text" class="form-control" id="calculoPago" readonly
+                                        value="<%= calculoPago %>">
+                                </div>
+                                <div class="form-group">
+                                    <label for="calculoImpuesto">Calculo Impuesto</label>
+                                    <input name="calculoImpuesto" type="text" class="form-control" id="calculoImpuesto"
+                                        readonly value="<%= calculoImpuesto %>">
+                                </div>
+                                <div class="form-group">
+                                    <label for="calculoTotal">Calculo Total</label>
+                                    <input name="calculoTotal" type="text" class="form-control" id="calculoTotal"
+                                        readonly value="<%= calculoTotal %>">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row mb-4">
+                            <div class="col-sm-10 m-auto">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                                <a href="/nomina" class="btn btn-secondary">Limpiar</a>
+                            </div>
+                        </div>
+                    </form>
                 </div>
     </center>
     <%- include('partials/footer.ejs') %>
