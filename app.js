@@ -101,8 +101,8 @@ app.post("/nomina", (req, res) => {
 // Metodos preExamen
 app.get("/preexamen", (req, res) => {
   res.render("preexamen", {
-    titulo: "Listado de Productos",
-    productos: productos,
+    titulo: "Filtrar Productos por Tipo",
+    productos: [],
     totalCosto: 0,
     totalCostoVenta: 0,
     totalCantidad: 0,
@@ -130,7 +130,7 @@ app.get("/filtrar", (req, res) => {
   let ganancia = totalCostoVenta - totalCosto;
 
   res.render("preexamen", {
-    titulo: "Listado de Productos Filtrados",
+    titulo: "Filtrar Productos por Tipo",
     productos: productosFiltrados,
     totalCosto,
     totalCostoVenta,

@@ -38,7 +38,7 @@
       </div>
 
       <table class="table table-info table-striped">
-        <!-- Total -->
+        <!-- Totales -->
         <tr class="text-center fw-bold">
           <td colspan="2">Total:</td>
           <td><%= totalCosto.toFixed(2) %></td>
@@ -51,6 +51,7 @@
           <td><%= ganancia.toFixed(2) %></td>
         </tr>
 
+        <!-- Encabezados de la tabla -->
         <tr class="text-center">
           <th>ID</th>
           <th>Producto</th>
@@ -59,16 +60,19 @@
           <th>Tipo</th>
           <th>Costo de Venta</th>
         </tr>
-        <% for(let i = 0; i < productos.length; i++) { %>
+
+        <!-- Filas de datos -->
+        <% if (productos.length > 0) { %> <% productos.forEach((producto) => {
+        %>
         <tr class="text-center">
-          <td><%= productos[i].id %></td>
-          <td><%= productos[i].producto %></td>
-          <td><%= productos[i].costo.toFixed(2) %></td>
-          <td><%= productos[i].cantidad %></td>
-          <td><%= productos[i].tipo %></td>
-          <td><%= (productos[i].costo * 1.15).toFixed(2) %></td>
+          <td><%= producto.id %></td>
+          <td><%= producto.producto %></td>
+          <td><%= producto.costo.toFixed(2) %></td>
+          <td><%= producto.cantidad %></td>
+          <td><%= producto.tipo %></td>
+          <td><%= (producto.costo * 1.15).toFixed(2) %></td>
         </tr>
-        <% } %>
+        <% }); %> <% } else { %> <% } %>
       </table>
     </section>
 
