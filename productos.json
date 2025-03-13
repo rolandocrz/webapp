@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "producto": "Regla",
+        "costo": 140.29,
+        "cantidad": 23,
+        "tipo": 3
+    },
+    {
+        "id": 2,
+        "producto": "Regla",
+        "costo": 100.93,
+        "cantidad": 11,
+        "tipo": 2
+    },
+    {
+        "id": 3,
+        "producto": "Papel Bond",
+        "costo": 107.59,
+        "cantidad": 37,
+        "tipo": 3
+    },
+    {
+        "id": 4,
+        "producto": "Borrador",
+        "costo": 147.77,
+        "cantidad": 15,
+        "tipo": 2
+    },
+    {
+        "id": 5,
+        "producto": "Lápiz",
+        "costo": 171.69,
+        "cantidad": 30,
+        "tipo": 2
+    },
+    {
+        "id": 6,
+        "producto": "Papel Bond",
+        "costo": 164.52,
+        "cantidad": 17,
+        "tipo": 2
+    },
+    {
+        "id": 7,
+        "producto": "Cuaderno",
+        "costo": 176.88,
+        "cantidad": 15,
+        "tipo": 3
+    },
+    {
+        "id": 8,
+        "producto": "Grapadora",
+        "costo": 122.0,
+        "cantidad": 48,
+        "tipo": 2
+    },
+    {
+        "id": 9,
+        "producto": "Bolígrafo",
+        "costo": 176.97,
+        "cantidad": 23,
+        "tipo": 3
+    },
+    {
+        "id": 10,
+        "producto": "Papel Bond",
+        "costo": 138.16,
+        "cantidad": 30,
+        "tipo": 3
+    },
+    {
+        "id": 11,
+        "producto": "Bolígrafo",
+        "costo": 169.92,
+        "cantidad": 44,
+        "tipo": 1
+    },
+    {
+        "id": 12,
+        "producto": "Carpeta",
+        "costo": 146.29,
+        "cantidad": 46,
+        "tipo": 3
+    },
+    {
+        "id": 13,
+        "producto": "Borrador",
+        "costo": 116.43,
+        "cantidad": 41,
+        "tipo": 3
+    },
+    {
+        "id": 14,
+        "producto": "Regla",
+        "costo": 145.69,
+        "cantidad": 29,
+        "tipo": 1
+    },
+    {
+        "id": 15,
+        "producto": "Borrador",
+        "costo": 184.93,
+        "cantidad": 17,
+        "tipo": 3
+    },
+    {
+        "id": 16,
+        "producto": "Carpeta",
+        "costo": 130.96,
+        "cantidad": 27,
+        "tipo": 1
+    },
+    {
+        "id": 17,
+        "producto": "Sacapuntas",
+        "costo": 138.74,
+        "cantidad": 28,
+        "tipo": 3
+    },
+    {
+        "id": 18,
+        "producto": "Papel Bond",
+        "costo": 144.76,
+        "cantidad": 29,
+        "tipo": 1
+    },
+    {
+        "id": 19,
+        "producto": "Papel Bond",
+        "costo": 166.32,
+        "cantidad": 29,
+        "tipo": 3
+    },
+    {
+        "id": 20,
+        "producto": "Lápiz",
+        "costo": 126.82,
+        "cantidad": 28,
+        "tipo": 1
+    },
+    {
+        "id": 21,
+        "producto": "Resaltador",
+        "costo": 158.68,
+        "cantidad": 14,
+        "tipo": 2
+    },
+    {
+        "id": 22,
+        "producto": "Carpeta",
+        "costo": 154.71,
+        "cantidad": 10,
+        "tipo": 3
+    },
+    {
+        "id": 23,
+        "producto": "Compás",
+        "costo": 155.67,
+        "cantidad": 12,
+        "tipo": 2
+    },
+    {
+        "id": 24,
+        "producto": "Tijeras",
+        "costo": 169.46,
+        "cantidad": 45,
+        "tipo": 1
+    },
+    {
+        "id": 25,
+        "producto": "Sacapuntas",
+        "costo": 184.26,
+        "cantidad": 19,
+        "tipo": 3
+    },
+    {
+        "id": 26,
+        "producto": "Lápiz",
+        "costo": 164.75,
+        "cantidad": 39,
+        "tipo": 1
+    },
+    {
+        "id": 27,
+        "producto": "Marcador",
+        "costo": 114.66,
+        "cantidad": 27,
+        "tipo": 2
+    },
+    {
+        "id": 28,
+        "producto": "Sacapuntas",
+        "costo": 138.14,
+        "cantidad": 9,
+        "tipo": 1
+    },
+    {
+        "id": 29,
+        "producto": "Borrador",
+        "costo": 175.73,
+        "cantidad": 4,
+        "tipo": 3
+    },
+    {
+        "id": 30,
+        "producto": "Resaltador",
+        "costo": 191.51,
+        "cantidad": 20,
+        "tipo": 3
+    },
+    {
+        "id": 31,
+        "producto": "Grapadora",
+        "costo": 107.63,
+        "cantidad": 16,
+        "tipo": 2
+    },
+    {
+        "id": 32,
+        "producto": "Corrector",
+        "costo": 144.9,
+        "cantidad": 13,
+        "tipo": 1
+    },
+    {
+        "id": 33,
+        "producto": "Bolígrafo",
+        "costo": 107.84,
+        "cantidad": 15,
+        "tipo": 2
+    },
+    {
+        "id": 34,
+        "producto": "Tijeras",
+        "costo": 121.46,
+        "cantidad": 41,
+        "tipo": 1
+    },
+    {
+        "id": 35,
+        "producto": "Resaltador",
+        "costo": 184.85,
+        "cantidad": 1,
+        "tipo": 1
+    },
+    {
+        "id": 36,
+        "producto": "Borrador",
+        "costo": 173.52,
+        "cantidad": 37,
+        "tipo": 3
+    },
+    {
+        "id": 37,
+        "producto": "Carpeta",
+        "costo": 145.63,
+        "cantidad": 28,
+        "tipo": 3
+    },
+    {
+        "id": 38,
+        "producto": "Regla",
+        "costo": 150.78,
+        "cantidad": 30,
+        "tipo": 1
+    },
+    {
+        "id": 39,
+        "producto": "Papel Bond",
+        "costo": 154.6,
+        "cantidad": 34,
+        "tipo": 3
+    },
+    {
+        "id": 40,
+        "producto": "Bolígrafo",
+        "costo": 135.56,
+        "cantidad": 33,
+        "tipo": 1
+    },
+    {
+        "id": 41,
+        "producto": "Lápiz",
+        "costo": 148.3,
+        "cantidad": 38,
+        "tipo": 1
+    },
+    {
+        "id": 42,
+        "producto": "Borrador",
+        "costo": 103.61,
+        "cantidad": 9,
+        "tipo": 1
+    },
+    {
+        "id": 43,
+        "producto": "Tijeras",
+        "costo": 148.44,
+        "cantidad": 7,
+        "tipo": 3
+    },
+    {
+        "id": 44,
+        "producto": "Marcador",
+        "costo": 195.23,
+        "cantidad": 35,
+        "tipo": 1
+    },
+    {
+        "id": 45,
+        "producto": "Borrador",
+        "costo": 148.46,
+        "cantidad": 37,
+        "tipo": 3
+    },
+    {
+        "id": 46,
+        "producto": "Tijeras",
+        "costo": 134.04,
+        "cantidad": 4,
+        "tipo": 3
+    },
+    {
+        "id": 47,
+        "producto": "Resaltador",
+        "costo": 150.79,
+        "cantidad": 5,
+        "tipo": 2
+    },
+    {
+        "id": 48,
+        "producto": "Corrector",
+        "costo": 151.29,
+        "cantidad": 11,
+        "tipo": 1
+    },
+    {
+        "id": 49,
+        "producto": "Carpeta",
+        "costo": 165.31,
+        "cantidad": 43,
+        "tipo": 2
+    },
+    {
+        "id": 50,
+        "producto": "Marcador",
+        "costo": 174.49,
+        "cantidad": 24,
+        "tipo": 1
+    },
+    {
+        "id": 51,
+        "producto": "Corrector",
+        "costo": 196.1,
+        "cantidad": 24,
+        "tipo": 3
+    },
+    {
+        "id": 52,
+        "producto": "Papel Bond",
+        "costo": 192.54,
+        "cantidad": 47,
+        "tipo": 2
+    },
+    {
+        "id": 53,
+        "producto": "Tijeras",
+        "costo": 128.28,
+        "cantidad": 28,
+        "tipo": 1
+    },
+    {
+        "id": 54,
+        "producto": "Borrador",
+        "costo": 199.44,
+        "cantidad": 3,
+        "tipo": 2
+    },
+    {
+        "id": 55,
+        "producto": "Carpeta",
+        "costo": 127.57,
+        "cantidad": 24,
+        "tipo": 1
+    },
+    {
+        "id": 56,
+        "producto": "Resaltador",
+        "costo": 117.37,
+        "cantidad": 35,
+        "tipo": 3
+    },
+    {
+        "id": 57,
+        "producto": "Carpeta",
+        "costo": 116.91,
+        "cantidad": 34,
+        "tipo": 3
+    },
+    {
+        "id": 58,
+        "producto": "Corrector",
+        "costo": 157.69,
+        "cantidad": 16,
+        "tipo": 3
+    },
+    {
+        "id": 59,
+        "producto": "Sacapuntas",
+        "costo": 102.15,
+        "cantidad": 2,
+        "tipo": 3
+    },
+    {
+        "id": 60,
+        "producto": "Grapadora",
+        "costo": 101.55,
+        "cantidad": 34,
+        "tipo": 1
+    },
+    {
+        "id": 61,
+        "producto": "Bolígrafo",
+        "costo": 174.83,
+        "cantidad": 26,
+        "tipo": 1
+    },
+    {
+        "id": 62,
+        "producto": "Regla",
+        "costo": 168.53,
+        "cantidad": 9,
+        "tipo": 2
+    },
+    {
+        "id": 63,
+        "producto": "Marcador",
+        "costo": 159.54,
+        "cantidad": 40,
+        "tipo": 3
+    },
+    {
+        "id": 64,
+        "producto": "Resaltador",
+        "costo": 169.66,
+        "cantidad": 14,
+        "tipo": 2
+    },
+    {
+        "id": 65,
+        "producto": "Corrector",
+        "costo": 193.01,
+        "cantidad": 35,
+        "tipo": 2
+    },
+    {
+        "id": 66,
+        "producto": "Carpeta",
+        "costo": 142.94,
+        "cantidad": 34,
+        "tipo": 2
+    },
+    {
+        "id": 67,
+        "producto": "Grapadora",
+        "costo": 104.89,
+        "cantidad": 35,
+        "tipo": 3
+    },
+    {
+        "id": 68,
+        "producto": "Tijeras",
+        "costo": 108.23,
+        "cantidad": 8,
+        "tipo": 3
+    },
+    {
+        "id": 69,
+        "producto": "Cuaderno",
+        "costo": 188.55,
+        "cantidad": 42,
+        "tipo": 2
+    },
+    {
+        "id": 70,
+        "producto": "Compás",
+        "costo": 104.79,
+        "cantidad": 23,
+        "tipo": 1
+    },
+    {
+        "id": 71,
+        "producto": "Carpeta",
+        "costo": 148.43,
+        "cantidad": 30,
+        "tipo": 3
+    },
+    {
+        "id": 72,
+        "producto": "Sacapuntas",
+        "costo": 140.55,
+        "cantidad": 26,
+        "tipo": 2
+    },
+    {
+        "id": 73,
+        "producto": "Corrector",
+        "costo": 168.47,
+        "cantidad": 28,
+        "tipo": 3
+    },
+    {
+        "id": 74,
+        "producto": "Regla",
+        "costo": 120.36,
+        "cantidad": 25,
+        "tipo": 1
+    },
+    {
+        "id": 75,
+        "producto": "Compás",
+        "costo": 179.75,
+        "cantidad": 23,
+        "tipo": 3
+    },
+    {
+        "id": 76,
+        "producto": "Resaltador",
+        "costo": 119.8,
+        "cantidad": 7,
+        "tipo": 1
+    },
+    {
+        "id": 77,
+        "producto": "Grapadora",
+        "costo": 199.69,
+        "cantidad": 15,
+        "tipo": 3
+    },
+    {
+        "id": 78,
+        "producto": "Marcador",
+        "costo": 103.01,
+        "cantidad": 7,
+        "tipo": 2
+    },
+    {
+        "id": 79,
+        "producto": "Sacapuntas",
+        "costo": 171.14,
+        "cantidad": 34,
+        "tipo": 3
+    },
+    {
+        "id": 80,
+        "producto": "Marcador",
+        "costo": 103.73,
+        "cantidad": 40,
+        "tipo": 3
+    },
+    {
+        "id": 81,
+        "producto": "Compás",
+        "costo": 109.87,
+        "cantidad": 27,
+        "tipo": 2
+    },
+    {
+        "id": 82,
+        "producto": "Carpeta",
+        "costo": 104.66,
+        "cantidad": 44,
+        "tipo": 2
+    },
+    {
+        "id": 83,
+        "producto": "Borrador",
+        "costo": 122.64,
+        "cantidad": 45,
+        "tipo": 1
+    },
+    {
+        "id": 84,
+        "producto": "Tijeras",
+        "costo": 113.6,
+        "cantidad": 13,
+        "tipo": 1
+    },
+    {
+        "id": 85,
+        "producto": "Bolígrafo",
+        "costo": 144.44,
+        "cantidad": 18,
+        "tipo": 2
+    },
+    {
+        "id": 86,
+        "producto": "Resaltador",
+        "costo": 118.07,
+        "cantidad": 27,
+        "tipo": 2
+    },
+    {
+        "id": 87,
+        "producto": "Compás",
+        "costo": 139.1,
+        "cantidad": 47,
+        "tipo": 1
+    },
+    {
+        "id": 88,
+        "producto": "Lápiz",
+        "costo": 114.64,
+        "cantidad": 36,
+        "tipo": 1
+    },
+    {
+        "id": 89,
+        "producto": "Borrador",
+        "costo": 134.7,
+        "cantidad": 38,
+        "tipo": 3
+    },
+    {
+        "id": 90,
+        "producto": "Lápiz",
+        "costo": 147.67,
+        "cantidad": 25,
+        "tipo": 1
+    },
+    {
+        "id": 91,
+        "producto": "Marcador",
+        "costo": 111.27,
+        "cantidad": 18,
+        "tipo": 3
+    },
+    {
+        "id": 92,
+        "producto": "Lápiz",
+        "costo": 180.53,
+        "cantidad": 3,
+        "tipo": 2
+    },
+    {
+        "id": 93,
+        "producto": "Lápiz",
+        "costo": 152.18,
+        "cantidad": 33,
+        "tipo": 3
+    },
+    {
+        "id": 94,
+        "producto": "Cuaderno",
+        "costo": 172.82,
+        "cantidad": 50,
+        "tipo": 3
+    },
+    {
+        "id": 95,
+        "producto": "Corrector",
+        "costo": 175.68,
+        "cantidad": 21,
+        "tipo": 2
+    },
+    {
+        "id": 96,
+        "producto": "Bolígrafo",
+        "costo": 166.24,
+        "cantidad": 25,
+        "tipo": 2
+    },
+    {
+        "id": 97,
+        "producto": "Bolígrafo",
+        "costo": 136.98,
+        "cantidad": 32,
+        "tipo": 1
+    },
+    {
+        "id": 98,
+        "producto": "Compás",
+        "costo": 174.01,
+        "cantidad": 15,
+        "tipo": 1
+    },
+    {
+        "id": 99,
+        "producto": "Carpeta",
+        "costo": 119.82,
+        "cantidad": 47,
+        "tipo": 3
+    },
+    {
+        "id": 100,
+        "producto": "Regla",
+        "costo": 121.96,
+        "cantidad": 18,
+        "tipo": 3
+    }
+]
