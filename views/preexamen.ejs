@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pre Examen</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body class="container">
+    <center>
+      <%- include('partials/header.ejs') %> <%-
+      include('partials/navegacion.ejs') %>
+      <h1><%= titulo %></h1>
+    </center>
+
+    <section>
+      <div class="container">
+        <img src="/img/logoupsin.png" alt="Logo de upsin" />
+      </div>
+      <hr />
+
+      <!-- Formulario de filtrado -->
+      <div class="mb-3">
+        <form action="/filtrar" method="GET">
+          <label for="tipo">Selecciona el tipo:</label>
+          <select
+            name="tipo"
+            id="tipo"
+            class="form-select w-auto d-inline-block"
+          >
+            <option value="1">Tipo 1</option>
+            <option value="2">Tipo 2</option>
+            <option value="3">Tipo 3</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Filtrar</button>
+          <a href="/preexamen" class="btn btn-warning">Limpiar</a>
+        </form>
+      </div>
+
+      <table class="table table-info table-striped">
+        <!-- Total -->
+        <tr class="text-center fw-bold">
+          <td colspan="2">Total:</td>
+          <td><%= totalCosto.toFixed(2) %></td>
+          <td><%= totalCantidad %></td>
+          <td></td>
+          <td><%= totalCostoVenta.toFixed(2) %></td>
+        </tr>
+        <tr class="text-center fw-bold">
+          <td colspan="5">Ganancia:</td>
+          <td><%= ganancia.toFixed(2) %></td>
+        </tr>
+
+        <tr class="text-center">
+          <th>ID</th>
+          <th>Producto</th>
+          <th>Costo</th>
+          <th>Cantidad</th>
+          <th>Tipo</th>
+          <th>Costo de Venta</th>
+        </tr>
+        <% for(let i = 0; i < productos.length; i++) { %>
+        <tr class="text-center">
+          <td><%= productos[i].id %></td>
+          <td><%= productos[i].producto %></td>
+          <td><%= productos[i].costo.toFixed(2) %></td>
+          <td><%= productos[i].cantidad %></td>
+          <td><%= productos[i].tipo %></td>
+          <td><%= (productos[i].costo * 1.15).toFixed(2) %></td>
+        </tr>
+        <% } %>
+      </table>
+    </section>
+
+    <%- include('partials/footer.ejs') %>
+  </body>
+</html>
