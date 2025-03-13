@@ -38,19 +38,6 @@
       </div>
 
       <table class="table table-info table-striped">
-        <!-- Totales -->
-        <tr class="text-center fw-bold">
-          <td colspan="2">Total:</td>
-          <td><%= totalCosto.toFixed(2) %></td>
-          <td><%= totalCantidad %></td>
-          <td></td>
-          <td><%= totalCostoVenta.toFixed(2) %></td>
-        </tr>
-        <tr class="text-center fw-bold">
-          <td colspan="5">Ganancia:</td>
-          <td><%= ganancia.toFixed(2) %></td>
-        </tr>
-
         <!-- Encabezados de la tabla -->
         <tr class="text-center">
           <th>ID</th>
@@ -72,7 +59,24 @@
           <td><%= producto.tipo %></td>
           <td><%= (producto.costo * 1.15).toFixed(2) %></td>
         </tr>
-        <% }); %> <% } else { %> <% } %>
+        <% }); %> <% } else { %>
+        <tr class="text-center">
+          <td colspan="6">No hay datos para mostrar.</td>
+        </tr>
+        <% } %>
+
+        <!-- Totales -->
+        <tr class="text-center fw-bold">
+          <td colspan="2">Total:</td>
+          <td><%= totalCosto.toFixed(2) %></td>
+          <td><%= totalCantidad %></td>
+          <td></td>
+          <td><%= totalCostoVenta.toFixed(2) %></td>
+        </tr>
+        <tr class="text-center fw-bold">
+          <td colspan="5">Ganancia:</td>
+          <td><%= ganancia.toFixed(2) %></td>
+        </tr>
       </table>
     </section>
 
