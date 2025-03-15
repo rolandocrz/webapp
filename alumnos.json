@@ -1,0 +1,1262 @@
+[
+  {
+    "matricula": "202503001",
+    "nombre": "Carlos Gómez",
+    "promedio": 9.6,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503002",
+    "nombre": "María López",
+    "promedio": 9.3,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503003",
+    "nombre": "Paola Ortega",
+    "promedio": 6.3,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503004",
+    "nombre": "Pedro Jiménez",
+    "promedio": 7.7,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503005",
+    "nombre": "María López",
+    "promedio": 8.7,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503006",
+    "nombre": "Pedro Jiménez",
+    "promedio": 0.5,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503007",
+    "nombre": "Luis Mendoza",
+    "promedio": 4.7,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503008",
+    "nombre": "Paola Ortega",
+    "promedio": 0.2,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503009",
+    "nombre": "Elena Castro",
+    "promedio": 6.9,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503010",
+    "nombre": "Paola Ortega",
+    "promedio": 6.4,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503011",
+    "nombre": "Elena Castro",
+    "promedio": 8.7,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503012",
+    "nombre": "Martín Chávez",
+    "promedio": 4.1,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503013",
+    "nombre": "Ana Torres",
+    "promedio": 1.6,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503014",
+    "nombre": "Martín Chávez",
+    "promedio": 1.1,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503015",
+    "nombre": "Roberto Domínguez",
+    "promedio": 4.8,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503016",
+    "nombre": "Hugo Salazar",
+    "promedio": 5.4,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503017",
+    "nombre": "Paola Ortega",
+    "promedio": 6.9,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503018",
+    "nombre": "María López",
+    "promedio": 9.2,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503019",
+    "nombre": "Sofía Ramírez",
+    "promedio": 4.8,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503020",
+    "nombre": "Isabel Núñez",
+    "promedio": 8.2,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503021",
+    "nombre": "Hugo Salazar",
+    "promedio": 5.8,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503022",
+    "nombre": "Ricardo Fernández",
+    "promedio": 9.1,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503023",
+    "nombre": "Isabel Núñez",
+    "promedio": 8.6,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503024",
+    "nombre": "Clara Vargas",
+    "promedio": 6.3,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503025",
+    "nombre": "Elena Castro",
+    "promedio": 9.7,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503026",
+    "nombre": "Elena Castro",
+    "promedio": 3.1,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503027",
+    "nombre": "Martín Chávez",
+    "promedio": 5.4,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503028",
+    "nombre": "Clara Vargas",
+    "promedio": 0.2,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503029",
+    "nombre": "Diana Herrera",
+    "promedio": 4.5,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503030",
+    "nombre": "Elena Castro",
+    "promedio": 9.3,
+    "nivel": 1,
+    "turno": 1
+  },
+  {
+    "matricula": "202503031",
+    "nombre": "Martín Chávez",
+    "promedio": 2.9,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503032",
+    "nombre": "Elena Castro",
+    "promedio": 2.4,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503033",
+    "nombre": "María López",
+    "promedio": 2.7,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503034",
+    "nombre": "Ricardo Fernández",
+    "promedio": 6.4,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503035",
+    "nombre": "María López",
+    "promedio": 8.9,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503036",
+    "nombre": "Martín Chávez",
+    "promedio": 9.5,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503037",
+    "nombre": "Paola Ortega",
+    "promedio": 4.3,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503038",
+    "nombre": "Isabel Núñez",
+    "promedio": 7.2,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503039",
+    "nombre": "Patricia Rojas",
+    "promedio": 8.1,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503040",
+    "nombre": "Luis Mendoza",
+    "promedio": 9.7,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503041",
+    "nombre": "Clara Vargas",
+    "promedio": 1.5,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503042",
+    "nombre": "Juan Pérez",
+    "promedio": 9.6,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503043",
+    "nombre": "Patricia Rojas",
+    "promedio": 9.3,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503044",
+    "nombre": "Fernando Ruiz",
+    "promedio": 2.0,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503045",
+    "nombre": "Gabriela Sánchez",
+    "promedio": 2.3,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503046",
+    "nombre": "Paola Ortega",
+    "promedio": 4.0,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503047",
+    "nombre": "Juan Pérez",
+    "promedio": 3.4,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503048",
+    "nombre": "María López",
+    "promedio": 2.8,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503049",
+    "nombre": "Hugo Salazar",
+    "promedio": 1.3,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503050",
+    "nombre": "Ricardo Fernández",
+    "promedio": 5.0,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503051",
+    "nombre": "Ana Torres",
+    "promedio": 5.7,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503052",
+    "nombre": "María López",
+    "promedio": 2.4,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503053",
+    "nombre": "Juan Pérez",
+    "promedio": 8.3,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503054",
+    "nombre": "Luis Mendoza",
+    "promedio": 4.5,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503055",
+    "nombre": "María López",
+    "promedio": 4.4,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503056",
+    "nombre": "Hugo Salazar",
+    "promedio": 5.2,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503057",
+    "nombre": "Paola Ortega",
+    "promedio": 7.6,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503058",
+    "nombre": "Pedro Jiménez",
+    "promedio": 1.7,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503059",
+    "nombre": "Sofía Ramírez",
+    "promedio": 8.1,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503060",
+    "nombre": "Clara Vargas",
+    "promedio": 8.7,
+    "nivel": 1,
+    "turno": 2
+  },
+  {
+    "matricula": "202503061",
+    "nombre": "Martín Chávez",
+    "promedio": 2.6,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503062",
+    "nombre": "Juan Pérez",
+    "promedio": 1.7,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503063",
+    "nombre": "Pedro Jiménez",
+    "promedio": 0.8,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503064",
+    "nombre": "Roberto Domínguez",
+    "promedio": 5.0,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503065",
+    "nombre": "Martín Chávez",
+    "promedio": 8.2,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503066",
+    "nombre": "Isabel Núñez",
+    "promedio": 2.9,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503067",
+    "nombre": "María López",
+    "promedio": 2.3,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503068",
+    "nombre": "Diana Herrera",
+    "promedio": 2.9,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503069",
+    "nombre": "Gabriela Sánchez",
+    "promedio": 8.9,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503070",
+    "nombre": "Ricardo Fernández",
+    "promedio": 7.3,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503071",
+    "nombre": "Javier León",
+    "promedio": 9.8,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503072",
+    "nombre": "Gabriela Sánchez",
+    "promedio": 5.8,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503073",
+    "nombre": "Sofía Ramírez",
+    "promedio": 6.8,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503074",
+    "nombre": "Fernando Ruiz",
+    "promedio": 8.6,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503075",
+    "nombre": "Clara Vargas",
+    "promedio": 5.1,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503076",
+    "nombre": "Sofía Ramírez",
+    "promedio": 1.6,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503077",
+    "nombre": "Martín Chávez",
+    "promedio": 5.4,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503078",
+    "nombre": "Javier León",
+    "promedio": 0.1,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503079",
+    "nombre": "Javier León",
+    "promedio": 7.5,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503080",
+    "nombre": "María López",
+    "promedio": 5.8,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503081",
+    "nombre": "Pedro Jiménez",
+    "promedio": 3.0,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503082",
+    "nombre": "Luis Mendoza",
+    "promedio": 8.2,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503083",
+    "nombre": "Isabel Núñez",
+    "promedio": 7.6,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503084",
+    "nombre": "Ana Torres",
+    "promedio": 0.4,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503085",
+    "nombre": "María López",
+    "promedio": 4.8,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503086",
+    "nombre": "Gabriela Sánchez",
+    "promedio": 6.7,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503087",
+    "nombre": "Ricardo Fernández",
+    "promedio": 1.9,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503088",
+    "nombre": "Elena Castro",
+    "promedio": 7.5,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503089",
+    "nombre": "Hugo Salazar",
+    "promedio": 2.3,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503090",
+    "nombre": "Fernando Ruiz",
+    "promedio": 2.6,
+    "nivel": 2,
+    "turno": 1
+  },
+  {
+    "matricula": "202503091",
+    "nombre": "Juan Pérez",
+    "promedio": 3.0,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503092",
+    "nombre": "Ana Torres",
+    "promedio": 8.5,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503093",
+    "nombre": "Isabel Núñez",
+    "promedio": 9.4,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503094",
+    "nombre": "Pedro Jiménez",
+    "promedio": 3.1,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503095",
+    "nombre": "Juan Pérez",
+    "promedio": 0.6,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503096",
+    "nombre": "Clara Vargas",
+    "promedio": 6.8,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503097",
+    "nombre": "Sofía Ramírez",
+    "promedio": 2.5,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503098",
+    "nombre": "Pedro Jiménez",
+    "promedio": 7.6,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503099",
+    "nombre": "Elena Castro",
+    "promedio": 2.2,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503100",
+    "nombre": "Isabel Núñez",
+    "promedio": 7.3,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503101",
+    "nombre": "Diana Herrera",
+    "promedio": 5.2,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503102",
+    "nombre": "Juan Pérez",
+    "promedio": 9.2,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503103",
+    "nombre": "Fernando Ruiz",
+    "promedio": 0.0,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503104",
+    "nombre": "Ricardo Fernández",
+    "promedio": 7.0,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503105",
+    "nombre": "Ana Torres",
+    "promedio": 9.4,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503106",
+    "nombre": "Clara Vargas",
+    "promedio": 2.7,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503107",
+    "nombre": "Sofía Ramírez",
+    "promedio": 3.4,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503108",
+    "nombre": "Isabel Núñez",
+    "promedio": 7.8,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503109",
+    "nombre": "Ricardo Fernández",
+    "promedio": 6.3,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503110",
+    "nombre": "Martín Chávez",
+    "promedio": 7.0,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503111",
+    "nombre": "Martín Chávez",
+    "promedio": 7.0,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503112",
+    "nombre": "María López",
+    "promedio": 6.6,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503113",
+    "nombre": "Ricardo Fernández",
+    "promedio": 6.8,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503114",
+    "nombre": "Ricardo Fernández",
+    "promedio": 9.6,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503115",
+    "nombre": "Hugo Salazar",
+    "promedio": 0.2,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503116",
+    "nombre": "Roberto Domínguez",
+    "promedio": 3.4,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503117",
+    "nombre": "Diana Herrera",
+    "promedio": 2.0,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503118",
+    "nombre": "Clara Vargas",
+    "promedio": 4.2,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503119",
+    "nombre": "Isabel Núñez",
+    "promedio": 1.0,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503120",
+    "nombre": "Fernando Ruiz",
+    "promedio": 9.9,
+    "nivel": 2,
+    "turno": 2
+  },
+  {
+    "matricula": "202503121",
+    "nombre": "Sofía Ramírez",
+    "promedio": 9.4,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503122",
+    "nombre": "Elena Castro",
+    "promedio": 3.9,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503123",
+    "nombre": "Javier León",
+    "promedio": 4.0,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503124",
+    "nombre": "María López",
+    "promedio": 3.4,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503125",
+    "nombre": "Diana Herrera",
+    "promedio": 6.0,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503126",
+    "nombre": "Javier León",
+    "promedio": 9.8,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503127",
+    "nombre": "Roberto Domínguez",
+    "promedio": 4.1,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503128",
+    "nombre": "Juan Pérez",
+    "promedio": 1.5,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503129",
+    "nombre": "Juan Pérez",
+    "promedio": 0.7,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503130",
+    "nombre": "María López",
+    "promedio": 9.5,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503131",
+    "nombre": "Paola Ortega",
+    "promedio": 3.6,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503132",
+    "nombre": "Fernando Ruiz",
+    "promedio": 2.4,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503133",
+    "nombre": "Javier León",
+    "promedio": 1.0,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503134",
+    "nombre": "Paola Ortega",
+    "promedio": 9.4,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503135",
+    "nombre": "Hugo Salazar",
+    "promedio": 5.3,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503136",
+    "nombre": "Elena Castro",
+    "promedio": 2.7,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503137",
+    "nombre": "Clara Vargas",
+    "promedio": 9.9,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503138",
+    "nombre": "Hugo Salazar",
+    "promedio": 9.5,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503139",
+    "nombre": "Clara Vargas",
+    "promedio": 1.4,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503140",
+    "nombre": "María López",
+    "promedio": 5.3,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503141",
+    "nombre": "Paola Ortega",
+    "promedio": 3.0,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503142",
+    "nombre": "Ricardo Fernández",
+    "promedio": 2.3,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503143",
+    "nombre": "Elena Castro",
+    "promedio": 9.0,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503144",
+    "nombre": "Ana Torres",
+    "promedio": 3.6,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503145",
+    "nombre": "Juan Pérez",
+    "promedio": 6.7,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503146",
+    "nombre": "Carlos Gómez",
+    "promedio": 3.5,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503147",
+    "nombre": "Sofía Ramírez",
+    "promedio": 4.4,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503148",
+    "nombre": "Patricia Rojas",
+    "promedio": 9.4,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503149",
+    "nombre": "Carlos Gómez",
+    "promedio": 4.1,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503150",
+    "nombre": "Luis Mendoza",
+    "promedio": 1.4,
+    "nivel": 3,
+    "turno": 1
+  },
+  {
+    "matricula": "202503151",
+    "nombre": "Luis Mendoza",
+    "promedio": 4.7,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503152",
+    "nombre": "Elena Castro",
+    "promedio": 9.6,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503153",
+    "nombre": "Juan Pérez",
+    "promedio": 7.7,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503154",
+    "nombre": "Javier León",
+    "promedio": 0.7,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503155",
+    "nombre": "Luis Mendoza",
+    "promedio": 7.4,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503156",
+    "nombre": "Isabel Núñez",
+    "promedio": 8.4,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503157",
+    "nombre": "Isabel Núñez",
+    "promedio": 4.3,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503158",
+    "nombre": "Elena Castro",
+    "promedio": 1.2,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503159",
+    "nombre": "Hugo Salazar",
+    "promedio": 5.5,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503160",
+    "nombre": "Ricardo Fernández",
+    "promedio": 7.4,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503161",
+    "nombre": "Isabel Núñez",
+    "promedio": 8.3,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503162",
+    "nombre": "Hugo Salazar",
+    "promedio": 0.5,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503163",
+    "nombre": "Pedro Jiménez",
+    "promedio": 7.4,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503164",
+    "nombre": "Pedro Jiménez",
+    "promedio": 4.5,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503165",
+    "nombre": "Hugo Salazar",
+    "promedio": 2.8,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503166",
+    "nombre": "Paola Ortega",
+    "promedio": 7.0,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503167",
+    "nombre": "Clara Vargas",
+    "promedio": 4.9,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503168",
+    "nombre": "Juan Pérez",
+    "promedio": 2.2,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503169",
+    "nombre": "Martín Chávez",
+    "promedio": 8.7,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503170",
+    "nombre": "Ricardo Fernández",
+    "promedio": 3.9,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503171",
+    "nombre": "Martín Chávez",
+    "promedio": 3.4,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503172",
+    "nombre": "Patricia Rojas",
+    "promedio": 7.0,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503173",
+    "nombre": "Elena Castro",
+    "promedio": 6.6,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503174",
+    "nombre": "Carlos Gómez",
+    "promedio": 0.9,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503175",
+    "nombre": "Hugo Salazar",
+    "promedio": 7.1,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503176",
+    "nombre": "Hugo Salazar",
+    "promedio": 5.8,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503177",
+    "nombre": "Sofía Ramírez",
+    "promedio": 6.9,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503178",
+    "nombre": "Hugo Salazar",
+    "promedio": 6.4,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503179",
+    "nombre": "Javier León",
+    "promedio": 1.9,
+    "nivel": 3,
+    "turno": 2
+  },
+  {
+    "matricula": "202503180",
+    "nombre": "Elena Castro",
+    "promedio": 1.3,
+    "nivel": 3,
+    "turno": 2
+  }
+]

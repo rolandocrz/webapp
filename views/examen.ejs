@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Examen Corte II</title>
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    </head>
+
+    <body class="container">
+        <center>
+            <%- include('partials/header.ejs') %> <%- include('partials/navegacion.ejs') %>
+            <div class="container">
+                <h1>Colegio Patria S.A</h1>
+                <h2>Lista De Alumnos</h2>
+                <h3 class="text-center">Examen Corte 2</h3>
+            </div>
+
+            <section class="row mb-3">
+                <form method="get" action="/alumnos" class="row">
+                    <div class="col">
+                        <label for="nivel" class="form-label">Nivel</label>
+                        <select class="form-select" id="nivel" name="nivel">
+                            <option value="Todos" <%= nivel === 'Todos' ? 'selected' : '' %>>Todos</option>
+                            <option value="1" <%= nivel === '1' ? 'selected' : '' %>>Primaria</option>
+                            <option value="2" <%= nivel === '2' ? 'selected' : '' %>>Secundaria</option>
+                            <option value="3" <%= nivel === '3' ? 'selected' : '' %>>Preparatoria</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="turno" class="form-label">Turno</label>
+                        <select class="form-select" id="turno" name="turno">
+                            <option value="Todos" <%= turno === 'Todos' ? 'selected' : '' %>>Todos</option>
+                            <option value="1" <%= turno === '1' ? 'selected' : '' %>>Matutino</option>
+                            <option value="2" <%= turno === '2' ? 'selected' : '' %>>Vespertino</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="tipoVista" class="form-label">Tipo de Vista</label>
+                        <select class="form-select" id="tipoVista" name="tipoVista">
+                            <option value="Resumen" <%= tipoVista === 'Resumen' ? 'selected' : '' %>>Resumen</option>
+                            <option value="Detalle" <%= tipoVista === 'Detalle' ? 'selected' : '' %>>Detalle</option>
+                        </select>
+                    </div>
+                    <div class="col d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary me-2">Filtrar</button>
+                        <a class="btn btn-secondary" href="/examen">Limpiar</a>
+                    </div>
+                </form>
+            </section>
+            <% if (mostrarDatos) { %>
+                <% if (tipoVista === 'Resumen') { %>
+                    <div class="row">
+                        <h3>Resumen</h3>
+                        <p>Total de Alumnos: <%= filtrarAlumnos.length %></p>
+                        <% 
+                            let sumaPromedios = 0;
+                            filtrarAlumnos.forEach(alumno => {
+                                sumaPromedios += alumno.promedio;
+                            });
+                            let promedioGeneral = (sumaPromedios / filtrarAlumnos.length).toFixed(2);
+                        %>
+                        <p>Promedio General: <%= promedioGeneral %></p>
+                        <p>Alumnos con promedio ≤ 7: <%= filtrarAlumnos.filter(alumno => alumno.promedio <= 7).length %></p>
+                        <p>Alumnos con promedio > 7: <%= filtrarAlumnos.filter(alumno => alumno.promedio > 7).length %></p>
+                    </div>
+                <% } else { %>
+                    <div class="row">
+                        <h3>Detalle</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Matrícula</th>
+                                    <th>Nombre</th>
+                                    <th>Nivel</th>
+                                    <th>Turno</th>
+                                    <th>Promedio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% filtrarAlumnos.forEach(alumno => { %>
+                                    <tr>
+                                        <td><%= alumno.matricula %></td>
+                                        <td><%= alumno.nombre %></td>
+                                        <td><%= alumno.nivel === 1 ? 'Primaria' : alumno.nivel === 2 ? 'Secundaria' : 'Preparatoria' %></td>
+                                        <td><%= alumno.turno === 1 ? 'Matutino' : 'Vespertino' %></td>
+                                        <td><%= alumno.promedio %></td>
+                                    </tr>
+                                <% }) %>
+                            </tbody>
+                        </table>
+                    </div>
+                <% } %>
+            <% } %>
+        </center>
+        <%- include('partials/footer.ejs') %>
+    </body>
+</html>

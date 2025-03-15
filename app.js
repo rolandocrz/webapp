@@ -23,6 +23,7 @@ app.use(express.json());
 // Declarar un array de Objetos
 let datos = JSON.parse(fs.readFileSync("datos.json", "utf-8"));
 let productos = JSON.parse(fs.readFileSync("productos.json", "utf-8"));
+let alumnos = JSON.parse(fs.readFileSync("alumnos.json", "utf-8"));
 
 // Primer Peticion
 app.get("/", (req, res) => {
@@ -136,6 +137,42 @@ app.get("/filtrar", (req, res) => {
     totalCostoVenta,
     totalCantidad,
     ganancia,
+  });
+});
+
+// METODOS EXAMEN
+app.get("/examen", (req, res) => {
+  res.render("examen", {
+    alumnos: alumnos,
+    filtrarAlumnos: [],
+    nivel: "Todos",
+    turno: "Todos",
+    tipoVista: "Resumen",
+    mostrarDatos: false,
+  });
+});
+
+app.get("/alumnos", (req, res) => {
+  const { nivel, turno, tipoVista } = req.query;
+
+  let filtrarAlumnos = alumnos;
+
+  if (nivel !== "Todos") {
+    filtrarAlumnos = filtrarAlumnos.filter((alumno) => alumno.nivel == nivel);
+  }
+
+  if (turno !== "Todos") {
+    filtrarAlumnos = filtrarAlumnos.filter((alumno) => alumno.turno == turno);
+  }
+
+  // Mostrar
+  res.render("examen", {
+    alumnos: alumnos,
+    filtrarAlumnos: filtrarAlumnos,
+    nivel,
+    turno,
+    tipoVista,
+    mostrarDatos: true,
   });
 });
 
